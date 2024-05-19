@@ -1,0 +1,12 @@
+@import "../utils/variables.module.scss";
+
+.header {
+    width: $BodyWidth;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+}

@@ -1,9 +1,9 @@
-
+import styles from "../style/main.module.scss"
 
 function Footer() {
     return (
-        <div>
-
+        <div className={styles.footer}>
+            <p>Me contacter</p>
         </div>
     )
 }

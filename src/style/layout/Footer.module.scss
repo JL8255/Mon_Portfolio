@@ -1,0 +1,12 @@
+@import "../utils/variables.module.scss";
+
+.footer {
+    width: $BodyWidth;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    position: fixed;
+    bottom: 0px;
+}

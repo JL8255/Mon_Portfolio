@@ -1,0 +1,30 @@
+@import "../utils/variables.module.scss";
+
+html {
+    margin: 0;
+    background-color: $HtmlBC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+body {
+    width: $BodyWidth;
+    margin:0;
+    box-sizing: border-box;
+    background-color: $BodyBC;
+}
+* {
+    color: $DefaultFontColor;
+    margin: 0;
+}
+h1 {
+    color: $H1FontColor;
+}
+h2{
+    color: $H2FontColor;
+}
+.App {
+    width: $BodyWidth;
+    height: 100vh;
+}
