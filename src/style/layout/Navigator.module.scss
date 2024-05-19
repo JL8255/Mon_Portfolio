@@ -1,0 +1,8 @@
+@import "../utils/variables.module.scss";
+
+.navigator {
+    width: $NavigatorWidth;
+    height: 100%;
+    padding: $PaddingBox;
+    box-sizing: border-box;
+}

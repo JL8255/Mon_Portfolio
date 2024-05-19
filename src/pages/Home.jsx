@@ -1,13 +1,13 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
 import styles from "../style/main.module.scss"
+import Navigator from "../components/Navigator"
 
 function Home() {
     return (
         <div className={styles.home}>
-            <Header />
-            <p>Home</p>
-            <Footer />
+            <Navigator />
+            <div className={styles.content_home}>
+                <p>Contenu Home page</p>
+            </div>
         </div>
     )
 }

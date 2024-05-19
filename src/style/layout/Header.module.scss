@@ -2,11 +2,11 @@
 
 .header {
     width: $BodyWidth;
-    height: 120px;
+    height: $HeaderHeight;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: center;
-    position: fixed;
-    top: 0px;
+    padding: $PaddingBox;
+    box-sizing: border-box;
 }
