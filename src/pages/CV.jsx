@@ -3,9 +3,9 @@ import Navigator from "../components/Navigator"
 
 function CV() {
     return (
-        <div className={styles.home}>
+        <div className={styles.CV}>
             <Navigator />
-            <div className={styles.content_home}>
+            <div className={styles.content_CV}>
                 <p>Mon CV</p>
             </div>
         </div>

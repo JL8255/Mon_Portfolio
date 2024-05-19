@@ -1,4 +1,4 @@
-@import "../main.module.scss";
+@import "../utils/variables.module.scss";
 
 .thumbnails {
     width: 100%;
@@ -6,4 +6,16 @@
     padding: $PaddingBox;
     box-sizing: border-box;
     border-radius: $DefaultBorderRadius;
+    margin-bottom: $PaddingBox;
+
+    h3,
+    p {
+        margin-bottom: 10px;
+    }
+
+    .content_tag {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

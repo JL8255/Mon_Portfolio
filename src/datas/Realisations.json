@@ -1,0 +1,55 @@
+[
+    {
+        "id": "1",
+        "name": "Créer une page web dynamique",
+        "description": "Utilisation de JavaScript",
+        "picture": "URL",
+        "tag": [
+            "HTML 5",
+            "CSS 3",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Planifier le développement d'un site",
+        "description": "Méthode Scrum",
+        "picture": "URL",
+        "tag": [
+            "Méthode Agile",
+            "Notion",
+            "Trello",
+            "kanban"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Débuggage et optimisation",
+        "description": "Optimisation pour la SEO",
+        "picture": "URL",
+        "tag": [
+            "Lighthouse"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Création d'une application web",
+        "description": "Utilisation de Create React App",
+        "picture": "URL",
+        "tag": [
+            "React.js",
+            "React router",
+            "Sass"
+        ]
+    },
+    {
+        "id": "5",
+        "name": "Développer le back-end d'un site de notation",
+        "description": "Création d'une API Rest CRUD",
+        "picture": "URL",
+        "tag": [
+            "Node.js",
+            "MongoDB"
+        ]
+    }
+]

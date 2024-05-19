@@ -1,6 +1,6 @@
 @import "../utils/variables.module.scss";
 
-.home {
+.realisation {
     height: calc(100vh - calc($HeaderHeight + $FooterHeight));
     display: flex;
     flex-direction: row;
@@ -8,7 +8,7 @@
     align-items: center;
     background-color: $MainBC;
 
-    .content_home {
+    .content_realisation {
         width: calc(100% - $NavigatorWidth);
         height: 100%;
         padding: $PaddingBox;

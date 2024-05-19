@@ -3,9 +3,9 @@ import Navigator from "../components/Navigator"
 
 function APropos() {
     return (
-        <div className={styles.home}>
+        <div className={styles.apropos}>
             <Navigator />
-            <div className={styles.content_home}>
+            <div className={styles.content_apropos}>
                 <p>A propos de moi</p>
             </div>
         </div>

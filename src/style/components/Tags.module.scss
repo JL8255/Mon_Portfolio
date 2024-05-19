@@ -1,0 +1,14 @@
+@import "../utils/variables.module.scss";
+
+.tag {
+    min-width: 110px;
+    border: 0px solid $TagColor;
+    color: $TagColor;
+    background-color: $TagBC;
+    padding: 2px 10px 2px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px 0px 0px;
+}
