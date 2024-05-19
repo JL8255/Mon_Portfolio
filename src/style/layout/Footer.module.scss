@@ -3,10 +3,10 @@
 .footer {
     width: $BodyWidth;
     height: $FooterHeight;
-    padding: $PaddingBox;
+    padding: $PaddingBox 120px $PaddingBox 120px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;  
+    justify-content: start;
+    align-items: center;
     box-sizing: border-box;
 }

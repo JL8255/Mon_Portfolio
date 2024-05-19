@@ -1,0 +1,9 @@
+@import "../main.module.scss";
+
+.thumbnails {
+    width: 100%;
+    background-color: $BodyBC;
+    padding: $PaddingBox;
+    box-sizing: border-box;
+    border-radius: $DefaultBorderRadius;
+}

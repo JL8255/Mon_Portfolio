@@ -4,9 +4,16 @@
     width: $BodyWidth;
     height: $HeaderHeight;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: start;
-    justify-content: center;
-    padding: $PaddingBox;
+    justify-content: start;
+    padding: $PaddingBox 120px $PaddingBox 50px;
     box-sizing: border-box;
+}
+
+.avatar {
+    height: 120px;
+    filter: drop-shadow(0px 10px 8px $BodyBC);
+    margin-right: 30px;
+    margin-top: -15px;
 }

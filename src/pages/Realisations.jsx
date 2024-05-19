@@ -1,15 +1,16 @@
 import styles from "../style/main.module.scss"
 import Navigator from "../components/Navigator"
+import Thumbnails from "../components/Thumbnails"
 
-function Home() {
+function Realisations() {
     return (
         <div className={styles.home}>
             <Navigator />
             <div className={styles.content_home}>
-
+                <Thumbnails />
             </div>
         </div>
     )
 }
 
-export default Home
+export default Realisations

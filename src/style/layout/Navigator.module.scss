@@ -5,4 +5,15 @@
     height: 100%;
     padding: $PaddingBox;
     box-sizing: border-box;
+    border-right: 1px solid $BodyBC;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+
+        .Link {
+            margin-bottom: 15px;
+            text-decoration: none;
+        }
+    }
 }
