@@ -28,7 +28,8 @@
         "description": "Optimisation pour la SEO",
         "picture": "URL",
         "tag": [
-            "Lighthouse"
+            "Lighthouse",
+            "WAVE Evaluation Tools"
         ]
     },
     {
@@ -45,7 +46,7 @@
     {
         "id": "5",
         "name": "Développer le back-end d'un site de notation",
-        "description": "Création d'une API Rest CRUD",
+        "description": "Création d'une API RESTful CRUD",
         "picture": "URL",
         "tag": [
             "Node.js",

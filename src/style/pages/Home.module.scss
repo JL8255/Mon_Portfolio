@@ -1,18 +1,56 @@
 @import "../utils/variables.module.scss";
 
 .home {
-    height: calc(100vh - calc($HeaderHeight + $FooterHeight));
+    width: $MainWidth;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     background-color: $MainBC;
 
-    .content_home {
-        width: calc(100% - $NavigatorWidth);
-        height: 100%;
-        padding: $PaddingBox;
-        box-sizing: border-box;
-        overflow-y: auto;
+    .content_page {
+        width: calc($MainWidth - $NavigatorWidth);
+        height: $PageHeight;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+
+        .content_home {
+            width: 100%;
+            padding: $PaddingBox;
+            box-sizing: border-box;
+        }
+
+        .content_apropos {
+            width: 100%;
+            padding: $PaddingBox;
+            box-sizing: border-box;
+        }
+
+        .content_CV {
+            width: 100%;
+            //height: 1.4143 * largeur = A4
+            padding: $PaddingBox;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .CVpage {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+            }
+
+            img {}
+        }
+
+        .content_realisation {
+            width: 100%;
+            padding: $PaddingBox;
+            box-sizing: border-box;
+        }
+
     }
 }

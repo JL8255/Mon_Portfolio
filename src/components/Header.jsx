@@ -7,7 +7,7 @@ function Header() {
             <img className={styles.avatar} src={Avatar} alt="avatar" />
             <div>
                 <h1>Jean-Louis Holzer</h1>
-                <h2>Développeur Web Junior</h2>
+                <h2>Développeur Web Full-stack</h2>
             </div>
         </div>
     )

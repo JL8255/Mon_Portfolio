@@ -1,15 +1,15 @@
 import styles from "../style/main.module.scss"
-import { Link } from 'react-router-dom'
 
 
 function Navigator() {
     return (
         <div className={styles.navigator}>
             <ul>
-                <Link className={styles.Link} to="/Home">Home</Link>
-                <Link className={styles.Link} to="/APropos">A propos de moi</Link>
-                <Link className={styles.Link} to="/Realisations">Mes Réalisations</Link>
-                <Link className={styles.Link} to="/CV">Mon CV</Link>
+                <a className={styles.Link} href="#home">Haut de page</a>
+                <a className={styles.Link} href="#apropos">A propos de moi</a>
+                <a className={styles.Link} href="#realisations">Réalisations</a>
+                <a className={styles.Link} href="#CV">Curriculum vitæ</a>
+                <a className={styles.Link} href="#contact">Me contacter</a>
             </ul>
         </div>
     )

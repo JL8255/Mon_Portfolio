@@ -2,7 +2,7 @@ import styles from "../style/main.module.scss"
 
 function Footer() {
     return (
-        <div className={styles.footer}>
+        <div id="contact" className={styles.footer}>
             <p>Me contacter</p>
         </div>
     )

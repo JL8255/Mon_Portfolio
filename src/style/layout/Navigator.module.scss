@@ -2,10 +2,16 @@
 
 .navigator {
     width: $NavigatorWidth;
-    height: 100%;
+    height: $PageHeight;
     padding: $PaddingBox;
     box-sizing: border-box;
-    border-right: 1px solid $BodyBC;
+    border-right: 0px solid $BodyBC;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    position: sticky;
+    top: $HeaderHeight;
 
     ul {
         display: flex;

@@ -3,12 +3,15 @@
 .header {
     width: $BodyWidth;
     height: $HeaderHeight;
+    background-color: $BodyBC;
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: start;
     padding: $PaddingBox 120px $PaddingBox 50px;
     box-sizing: border-box;
+    position: sticky;
+    top: 0;
 }
 
 .avatar {
