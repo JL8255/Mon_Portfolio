@@ -1,8 +1,8 @@
 [
     {
         "id": "1",
-        "name": "Créer une page web dynamique",
-        "description": "Utilisation de JavaScript",
+        "name": "Créer une page web dynamique en JavaScript",
+        "description": "Développement de la partie Front-end d'un site d'architecte. Gestion d'événement avec manipulation du DOM. Création d'une page de connexion avec vérification de l'authentification. Gestion de modale.",
         "picture": "URL",
         "tag": [
             "HTML 5",
@@ -12,34 +12,40 @@
     },
     {
         "id": "2",
-        "name": "Planifier le développement d'un site",
-        "description": "Méthode Scrum",
+        "name": "Planifier le développement du site d'un client",
+        "description": "Mettre en place un outil de gestion de projet, un outil de veille technologique. Rédiger les spécifications et les solutions techniques. Déterminer le planning de réalisation du projet découpé en tickets. Equipe de développement organisée autour de la methode agile.",
         "picture": "URL",
         "tag": [
             "Méthode Agile",
+            "Scrum",
             "Notion",
             "Trello",
+            "Wakelet",
             "kanban"
         ]
     },
     {
         "id": "3",
-        "name": "Débuggage et optimisation",
-        "description": "Optimisation pour la SEO",
+        "name": "Débuggage et optimisation d'un site de photographe",
+        "description": "Débuggage du code existant. Optimisation des performances de chargement du site. Amélioration de la visibilité du site SEO et de l'accessibilité. Rédaction du rapport d'intervention",
         "picture": "URL",
         "tag": [
             "Lighthouse",
-            "WAVE Evaluation Tools"
+            "WAVE Evaluation Tools",
+            "SEO",
+            "<meta />"
         ]
     },
     {
         "id": "4",
-        "name": "Création d'une application web",
-        "description": "Utilisation de Create React App",
+        "name": "Création d'une application web de location immobilière",
+        "description": "Utilisation de la bibliothèque ReactJS. Mise en place de l'environnement de développement et de “build” avec Create React App.",
         "picture": "URL",
         "tag": [
+            "CRA",
             "React.js",
             "React router",
+            "Node.js",
             "Sass"
         ]
     },

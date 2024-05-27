@@ -8,9 +8,9 @@
     border-radius: $DefaultBorderRadius;
     margin-bottom: $PaddingBox;
 
-    h3,
     p {
-        margin-bottom: 10px;
+        margin-bottom: $PaddingBox;
+        font-size: 20px;
     }
 
     .content_tag {

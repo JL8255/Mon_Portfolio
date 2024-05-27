@@ -15,14 +15,19 @@
         flex-direction: column;
         justify-content: flex-start;
 
-
-        .content_home {
+        .content_apropos {
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
+
+            .apropos {
+                font-family: "Edu TAS Beginner", cursive;
+                font-size: 30px;
+                padding: 8%;
+            }
         }
 
-        .content_apropos {
+        .content_competences {
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;

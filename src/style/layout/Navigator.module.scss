@@ -16,10 +16,13 @@
     ul {
         display: flex;
         flex-direction: column;
+        padding: 0;
 
         .Link {
             margin-bottom: 15px;
             text-decoration: none;
+            font-size: larger;
+            color: $H1FontColor;
         }
     }
 }
