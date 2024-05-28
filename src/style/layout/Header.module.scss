@@ -4,6 +4,7 @@
     width: $BodyWidth;
     height: $HeaderHeight;
     background-color: $BodyBC;
+    //filter: drop-shadow(0 6mm 2mm $BodyBC);
     display: flex;
     flex-direction: row;
     align-items: start;

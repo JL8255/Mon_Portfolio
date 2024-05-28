@@ -1,0 +1,136 @@
+[
+    {
+        "id": "C1",
+        "group": "Langages",
+        "items": [
+            {
+                "tag": "HTML 5",
+                "rate": "17"
+            },
+            {
+                "tag": "CSS 3",
+                "rate": "15"
+            },
+            {
+                "tag": "Sass",
+                "rate": "10"
+            },
+            {
+                "tag": "Java Script",
+                "rate": "13"
+            },
+            {
+                "tag": "JSON",
+                "rate": "18"
+            },
+            {
+                "tag": "VBA",
+                "rate": "10"
+            },
+            {
+                "tag": "C++",
+                "rate": "6"
+            }
+        ]
+    },
+    {
+        "id": "C2",
+        "group": "Librairies / Frameworks",
+        "items": [
+            {
+                "tag": "React JS",
+                "rate": "16"
+            },
+            {
+                "tag": "React router dom",
+                "rate": "12"
+            },
+            {
+                "tag": "Serveur Express",
+                "rate": "12"
+            },
+            {
+                "tag": "Node JS",
+                "rate": "12"
+            },
+            {
+                "tag": "Jquery",
+                "rate": "5"
+            },
+            {
+                "tag": "Google Fonts",
+                "rate": "10"
+            },
+            {
+                "tag": "Font Awesome",
+                "rate": "15"
+            }
+        ]
+    },
+    {
+        "id": "C3",
+        "group": "Environnement",
+        "items": [
+            {
+                "tag": "VScode",
+                "rate": ""
+            },
+            {
+                "tag": "CodeBlocks",
+                "rate": ""
+            },
+            {
+                "tag": "GitHub",
+                "rate": ""
+            },
+            {
+                "tag": "Figma",
+                "rate": ""
+            },
+            {
+                "tag": "MongoDB",
+                "rate": ""
+            }
+        ]
+    },
+    {
+        "id": "C4",
+        "group": "Outils SEO",
+        "items": [
+            {
+                "tag": "LightHouse",
+                "rate": ""
+            },
+            {
+                "tag": "WAVE Evaluation Tool",
+                "rate": ""
+            },
+            {
+                "tag": "Schema.org",
+                "rate": ""
+            },
+            {
+                "tag": "Google Rich Snippet",
+                "rate": ""
+            }
+        ]
+    },
+    {
+        "id": "C5",
+        "group": "Outils de gestion",
+        "items": [
+            {
+                "tag": "Notion",
+                "rate": ""
+            },
+            {
+                "tag": "Wakelet",
+                "rate": ""
+            },
+            {
+                "tag": "Trello",
+                "rate": ""
+            }
+        ]
+    }
+]

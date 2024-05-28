@@ -1,7 +1,9 @@
 import styles from "../style/main.module.scss"
 import Navigator from "../components/Navigator"
 import Thumbnails from "../components/Thumbnails"
+import SkillGroup from "../components/SkillGroup"
 import realisationsList from "../datas/Realisations.json"
+import competenceList from "../datas/Competence.json"
 import imgCV from "../assets/CV.jpg"
 import IMG1 from "../assets/Créer_une_page_web_dynamique_en_JavaScript.jpg"
 import IMG2 from "../assets/Planifier_le_développement_du_site_d'un_client.jpg"
@@ -43,9 +45,15 @@ function Home() {
 
                 <div id="competences" className={styles.content_competences}>
                     <h3>Un point sur les compétences qui j'ai aquises.</h3>
+                    <div>
+                        {competenceList.map((competence, index) => (
+                            <SkillGroup key={competence.id} competence={competence} />
+                        ))}
+                    </div>
                 </div>
 
                 <div id="CV" className={styles.content_CV}>
+                    <h3>Mon CV à télécharger</h3>
                     <div className={styles.CVpage}>
                         <img src={imgCV} alt="CV" />
                     </div>

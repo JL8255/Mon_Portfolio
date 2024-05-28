@@ -1,0 +1,12 @@
+@import "../utils/variables.module.scss";
+
+.content_skillGroup {
+    width: 400px;
+
+    .pGroup {
+        font-size: 20px;
+        margin-top: $PaddingBox*2;
+        margin-bottom: $PaddingBox;
+        color: $H2FontColor;
+    }
+}
