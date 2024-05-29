@@ -3,9 +3,20 @@ import styles from "../style/main.module.scss"
 function Footer() {
     return (
         <div id="contact" className={styles.footer}>
-            <p>Me contacter</p>
+            <div className={styles.content_p}>
+                <p>Me contacter : </p>
+            </div>
+            <div className={styles.content_i}>
+                <i id="at" className="fa-solid fa-at"></i>
+                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-square-facebook"></i>
+            </div>
         </div>
     )
 }
 
 export default Footer
+
+/*
+<i id="envelope" className="fa-regular fa-envelope-open"></i>
+*/

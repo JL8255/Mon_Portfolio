@@ -32,9 +32,12 @@
         "description": "Débuggage du code existant. Optimisation des performances de chargement du site. Amélioration de la visibilité du site SEO et de l'accessibilité. Rédaction du rapport d'intervention",
         "picture": "../assets/Débuggage_et_optimisation_d'un_site_de_photographe.jpg",
         "tag": [
+            "HTML 5",
+            "CSS 3",
             "Lighthouse",
-            "WAVE Evaluation Tools",
+            "WAVE Evaluation Tool",
             "SEO",
+            "Réseaux sociaux",
             "<meta />"
         ],
         "repo": "https://github.com/JL8255/P5-Nina-Carducci.git"
@@ -49,7 +52,7 @@
             "React.js",
             "React router",
             "Node.js",
-            "Sass"
+            "Sass - pattern 7.1"
         ],
         "repo": "https://github.com/JL8255/P6-JLH-Kasa.git"
     },

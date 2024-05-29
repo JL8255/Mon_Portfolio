@@ -1,7 +1,7 @@
 @import "../utils/variables.module.scss";
 
 .content_skill {
-    width: 300 px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,7 +9,7 @@
 
     p {
         font-size: 18px;
-        margin: $PaddingBox*0.25 0px $PaddingBox*0.25 $PaddingBox*2;
+        margin: $PaddingBox*0.25 0px $PaddingBox*0.25 0px;
         color: $H3FontColor;
     }
 
@@ -21,12 +21,14 @@
         .rate {
             width: 5px;
             height: 5px;
+            //margin-right: 1px;
             background-color: $TagColor;
         }
 
         .noRate {
             width: 5px;
             height: 5px;
+            //margin-right: 1px;
             background-color: $TagBC;
         }
     }

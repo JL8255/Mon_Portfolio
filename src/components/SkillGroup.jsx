@@ -4,7 +4,10 @@ import styles from "../style/components/SkillGroup.module.scss"
 function SkillGroup({ competence }) {
     return (
         <div className={styles.content_skillGroup}>
-            <p className={styles.pGroup}>{competence.group}</p>
+            <div className={styles.pGroup}>
+                <i className="fa-solid fa-tags"></i>
+                <p>{competence.group}</p>
+            </div>
             {competence.items.map((item, index) => (
                 <Skill key={"S" + index} item={item} />
             ))}

@@ -6,7 +6,26 @@
     padding: $PaddingBox 120px $PaddingBox 120px;
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     box-sizing: border-box;
+
+    .content_p {
+        position: absolute;
+        left: 0px;
+
+        p {
+            margin: 0px 0px 0px $PaddingBox*4;
+        }
+    }
+
+
+    .content_i {
+        margin-left: $NavigatorWidth;
+
+        i {
+            font-size: 40px;
+            margin-right: $PaddingBox*2;
+        }
+    }
 }

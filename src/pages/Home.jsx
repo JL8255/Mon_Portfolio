@@ -46,7 +46,7 @@ function Home() {
 
                 <div id="competences" className={styles.content_competences}>
                     <h3>Un point sur les compétences qui j'ai aquises.</h3>
-                    <div>
+                    <div className={styles.content_skillGroup}>
                         {competenceList.map((competence, index) => (
                             <SkillGroup key={competence.id} competence={competence} />
                         ))}

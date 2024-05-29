@@ -1,12 +1,29 @@
 @import "../utils/variables.module.scss";
 
 .content_skillGroup {
-    width: 400px;
+    width: 300px;
+    margin: $PaddingBox;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
     .pGroup {
-        font-size: 20px;
-        margin-top: $PaddingBox*2;
-        margin-bottom: $PaddingBox;
-        color: $H2FontColor;
+        margin: $PaddingBox*2 0px $PaddingBox $PaddingBox*0.5;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        i {
+            margin-top: 4px;
+            transform: rotate(90deg);
+            z-index: 0;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            color: $TagColor;
+            margin: 0px 0px 0px $PaddingBox*0.5;
+        }
     }
 }

@@ -17,10 +17,10 @@ function Skill({ item }) {
             <p>{item.tag}</p>
             <div className={styles.content_rate}>
                 {rate.map(() => (
-                    <div className={styles.rate}></div>
+                    <div key={"R" + Math.random() * 1000000000} className={styles.rate}></div>
                 ))}
                 {noRate.map(() => (
-                    <div className={styles.noRate}></div>
+                    <div key={"N" + Math.random() * 1000000000} className={styles.noRate}></div>
                 ))}
             </div>
         </div>

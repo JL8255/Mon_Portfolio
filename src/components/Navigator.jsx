@@ -19,7 +19,7 @@ function Navigator() {
                     Curriculum vitæ</a>
                 <a className={styles.Link} href="#contact">
                     <i className="fa-solid fa-code"></i>
-                    Me contacter</a>
+                    Contact</a>
             </ul>
         </div>
     )
