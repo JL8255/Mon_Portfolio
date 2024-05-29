@@ -28,8 +28,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        box-sizing: border-box;
 
         .content_apropos {
+
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
@@ -41,7 +43,15 @@
             }
         }
 
+        .content_realisation {
+
+            width: 100%;
+            padding: $PaddingBox;
+            box-sizing: border-box;
+        }
+
         .content_competences {
+
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
@@ -55,14 +65,15 @@
         }
 
         .content_CV {
+
             width: 100%;
-            //height: 1.4143 * largeur = A4
             padding: $PaddingBox;
             box-sizing: border-box;
             display: flex;
             flex-direction: column;
 
             .CVpage {
+
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -70,17 +81,11 @@
             }
 
             img {
-                margin: $PaddingBox;
-                max-width: 500px;
+
+                margin: $PaddingBox 0px $PaddingBox 0px;
+                max-width: calc(100vw - $PaddingBox*2);
             }
         }
-
-        .content_realisation {
-            width: 100%;
-            padding: $PaddingBox;
-            box-sizing: border-box;
-        }
-
     }
 }
 

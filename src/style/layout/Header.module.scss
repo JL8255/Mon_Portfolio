@@ -17,27 +17,6 @@
 
     .modale_nav {
         display: none;
-        position: fixed;
-        right: $PaddingBox;
-        cursor: pointer;
-
-        i {
-            font-size: 50px;
-        }
-
-        .navOn {
-            position: fixed;
-            top: $HeaderHeight;
-            right: 0;
-            width: $NavigatorWidth;
-            background-color: $BodyBC;
-            border-radius: 0px 0px 0px $DefaultBorderRadius;
-        }
-
-        .navOff {
-            display: none;
-        }
-
     }
 
     .avatar {
@@ -60,6 +39,27 @@
     .header {
         .modale_nav {
             display: flex;
+            position: fixed;
+            right: $PaddingBox;
+            //top: 50px;
+            cursor: pointer;
+
+            i {
+                font-size: 50px;
+            }
+
+            .navOn {
+                position: fixed;
+                top: $HeaderHeight;
+                right: 0;
+                width: $NavigatorWidth;
+                background-color: $BodyBC;
+                border-radius: 0px 0px 0px $DefaultBorderRadius;
+            }
+
+            .navOff {
+                display: none;
+            }
         }
 
         .avatar {
@@ -68,6 +68,34 @@
 
         .name {
             left: calc($PaddingBox + 120px)
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    .header {
+        .modale_nav {
+            top: 100px;
+
+            i {
+                font-size: 35px;
+            }
+        }
+
+        .avatar {
+            height: 100px;
+        }
+
+        .name {
+            width: 200px;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
         }
     }
 }

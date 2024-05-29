@@ -3,31 +3,35 @@
 .footer {
     width: $BodyWidth;
     height: $FooterHeight;
-    padding: $PaddingBox 120px $PaddingBox 120px;
+    background-color: $BodyBC;
+    padding: $PaddingBox 0px $PaddingBox 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     box-sizing: border-box;
 
     .content_p {
-        position: absolute;
-        left: 0px;
+        width: $NavigatorWidth;
+        margin-left: $PaddingBox;
+        box-sizing: border-box;
 
         h3 {
-            margin: 0px 0px 0px $PaddingBox*4;
+            margin: 0;
         }
     }
 
 
     .content_i {
-        margin-left: $NavigatorWidth;
+        width: calc(100% - $NavigatorWidth);
         display: flex;
         flex-direction: row;
+        justify-content: center;
 
         i {
             font-size: 40px;
             margin-right: $PaddingBox*2;
+            cursor: pointer;
         }
     }
 }
@@ -37,6 +41,22 @@
         .content_p {
             h3 {
                 margin: 0px 0px 0px $PaddingBox;
+            }
+        }
+    }
+}
+
+@media (max-width: 580px) {
+    .footer {
+        height: calc(120px + $PaddingBox);
+        flex-direction: column;
+        justify-content: center;
+
+        .content_p {
+            //display: none;
+
+            h3 {
+                margin: 0px 0px $PaddingBox 10px;
             }
         }
     }
