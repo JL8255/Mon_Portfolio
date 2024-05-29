@@ -14,7 +14,9 @@ import IMG5 from "../assets/Développer_le_back-end_d'un_site_de_notation.jpg"
 function Home() {
     return (
         <div className={styles.home}>
-            <Navigator />
+            <div className={styles.content_nav}>
+                <Navigator />
+            </div>
             <div className={styles.content_page}>
 
                 <div id="apropos" className={styles.content_apropos}>

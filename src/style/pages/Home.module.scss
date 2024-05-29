@@ -8,6 +8,20 @@
     align-items: start;
     background-color: $MainBC;
 
+    .content_nav {
+        width: $NavigatorWidth;
+        height: $PageHeight;
+        padding: $PaddingBox;
+        box-sizing: border-box;
+        border-right: 0px solid $BodyBC;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+        position: sticky;
+        top: $HeaderHeight;
+    }
+
     .content_page {
         width: calc($MainWidth - $NavigatorWidth);
         height: $PageHeight;
@@ -73,6 +87,10 @@
 @media (max-width: 1024px) {
 
     .home {
+        .content_nav {
+            display: none;
+        }
+
         .content_page {
             width: $MainWidth;
         }

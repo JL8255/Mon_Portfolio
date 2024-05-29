@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div id="contact" className={styles.footer}>
             <div className={styles.content_p}>
-                <p>Me contacter : </p>
+                <h3>Me contacter : </h3>
             </div>
             <div className={styles.content_i}>
                 <i id="at" className="fa-solid fa-at"></i>

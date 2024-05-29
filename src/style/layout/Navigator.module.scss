@@ -1,17 +1,6 @@
 @import "../utils/variables.module.scss";
 
 .navigator {
-    width: $NavigatorWidth;
-    height: $PageHeight;
-    padding: $PaddingBox;
-    box-sizing: border-box;
-    border-right: 0px solid $BodyBC;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
-    position: sticky;
-    top: $HeaderHeight;
 
     ul {
         display: flex;
@@ -19,18 +8,35 @@
         padding: 0;
 
         .Link {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
             margin-bottom: 15px;
             text-decoration: none;
             font-size: larger;
             color: $H1FontColor;
+
+            i {
+                font-size: 20px;
+            }
         }
     }
 }
 
 @media (max-width: 1024px) {
-
     .navigator {
-        display: none;
-    }
 
+        ul {
+            .Link {
+                flex-direction: row-reverse;
+                justify-content: end;
+
+                i {
+                    margin-right: calc($PaddingBox + 23px);
+                    margin-left: $PaddingBox
+                }
+            }
+        }
+    }
 }

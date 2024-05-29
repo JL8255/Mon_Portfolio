@@ -14,6 +14,12 @@
     .poster {
         width: 300px;
         margin-right: $PaddingBox*2;
+        text-decoration: none;
+
+        h4 {
+            color: $TagColor;
+            font-size: 20px;
+        }
 
         .content_img {
             width: 300px;
@@ -22,7 +28,7 @@
             img {
                 width: 100%;
                 height: 200px;
-                object-fit: fill;
+                object-fit: cover;
             }
         }
     }
@@ -40,7 +46,28 @@
             flex-wrap: wrap;
         }
     }
+}
+
+@media (max-width: 870px) {
+    .thumbnails {
+        flex-direction: column;
+
+        .poster {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: $PaddingBox;
+            margin-right: 0;
+        }
+
+        .content_des {
 
 
-
+            .content_tag {
+                justify-content: center;
+            }
+        }
+    }
 }

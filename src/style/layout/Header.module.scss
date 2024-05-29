@@ -7,13 +7,38 @@
     //filter: drop-shadow(0 6mm 2mm $BodyBC);
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
     justify-content: start;
     padding: $PaddingBox 120px $PaddingBox 50px;
     box-sizing: border-box;
     position: sticky;
     top: 0;
     z-index: 1;
+
+    .modale_nav {
+        display: none;
+        position: fixed;
+        right: $PaddingBox;
+        cursor: pointer;
+
+        i {
+            font-size: 50px;
+        }
+
+        .navOn {
+            position: fixed;
+            top: $HeaderHeight;
+            right: 0;
+            width: $NavigatorWidth;
+            background-color: $BodyBC;
+            border-radius: 0px 0px 0px $DefaultBorderRadius;
+        }
+
+        .navOff {
+            display: none;
+        }
+
+    }
 
     .avatar {
         position: absolute;
@@ -22,11 +47,27 @@
         filter: drop-shadow(0px 10px 8px $BodyBC);
         margin-left: $PaddingBox*4;
         margin-right: 30px;
-        margin-top: -15px;
     }
 
     .name {
         position: absolute;
         left: calc($PaddingBox*4 + 120px);
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .header {
+        .modale_nav {
+            display: flex;
+        }
+
+        .avatar {
+            margin-left: $PaddingBox;
+        }
+
+        .name {
+            left: calc($PaddingBox + 120px)
+        }
     }
 }

@@ -14,7 +14,7 @@
         position: absolute;
         left: 0px;
 
-        p {
+        h3 {
             margin: 0px 0px 0px $PaddingBox*4;
         }
     }
@@ -22,10 +22,22 @@
 
     .content_i {
         margin-left: $NavigatorWidth;
+        display: flex;
+        flex-direction: row;
 
         i {
             font-size: 40px;
             margin-right: $PaddingBox*2;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        .content_p {
+            h3 {
+                margin: 0px 0px 0px $PaddingBox;
+            }
         }
     }
 }
