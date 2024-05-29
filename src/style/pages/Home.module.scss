@@ -1,5 +1,11 @@
 @import "../utils/variables.module.scss";
 
+@mixin borderDEG() {
+    border-top: 2px solid $TagBC;
+    border-image: linear-gradient(90deg, $MainBC, $TagBC, $MainBC);
+    border-image-slice: 1;
+}
+
 .home {
     width: $MainWidth;
     display: flex;
@@ -31,7 +37,6 @@
         box-sizing: border-box;
 
         .content_apropos {
-
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
@@ -39,19 +44,27 @@
             .apropos {
                 font-family: "Edu TAS Beginner", cursive;
                 font-size: 30px;
-                padding: 8%;
+                padding: 5%;
+                text-align: justify;
+            }
+
+            .citation {
+                font-size: 25px;
+                padding: 5%;
+                margin: 0;
+                text-align: center;
             }
         }
 
         .content_realisation {
-
+            @include borderDEG();
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
         }
 
         .content_competences {
-
+            @include borderDEG();
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
@@ -65,7 +78,7 @@
         }
 
         .content_CV {
-
+            @include borderDEG();
             width: 100%;
             padding: $PaddingBox;
             box-sizing: border-box;
@@ -98,6 +111,29 @@
 
         .content_page {
             width: $MainWidth;
+        }
+    }
+}
+
+@media (max-width: 620px) {
+    h3 {
+        margin-top: $PaddingBox;
+        margin-bottom: $PaddingBox;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .home {
+        .content_page {
+            .content_apropos {
+                .apropos {
+                    font-size: 22px;
+                }
+
+                .citation {
+                    font-size: 18px;
+                }
+            }
         }
     }
 }

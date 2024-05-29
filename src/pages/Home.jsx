@@ -21,7 +21,7 @@ function Home() {
 
                 <div id="apropos" className={styles.content_apropos}>
                     <p className={styles.apropos}>J'ai toujours été intéressé pour le développement informatique. Chercher comment réaliser des petits programmes pratiques pour gagner du temps en codant. Je me suis lancé dans le domaine de la finance en 2002 et j'ai toujours essayer d'utiliser mes outils le plus efficacement possible. C'est comme ça que j'ai appris à utiliser le langage VBA d'Excel pour générer des feuilles de calcul complexes et gagner en efficacité dans mon travail. Après 15 années dans la finance, j'ai tout quitter pour me consacrer au développement web depuis fin 2023. Je suis fasciné par ce nouveau monde de possibilités et je me délecte de toujours en apprendre d'avantage !</p>
-                    <p>"Toute technologie suffisamment avancée est indiscernable de la magie." - Arthur C. Clarke</p>
+                    <p className={styles.citation}>"Toute technologie suffisamment avancée est indiscernable de la magie." - Arthur C. Clarke</p>
                 </div>
 
 

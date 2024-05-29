@@ -41,7 +41,7 @@
             display: flex;
             position: fixed;
             right: $PaddingBox;
-            //top: 50px;
+            top: 50px;
             cursor: pointer;
 
             i {
@@ -74,14 +74,6 @@
 
 @media (max-width: 620px) {
     .header {
-        .modale_nav {
-            top: 100px;
-
-            i {
-                font-size: 35px;
-            }
-        }
-
         .avatar {
             height: 100px;
         }
@@ -95,6 +87,18 @@
 
             h2 {
                 font-size: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        .modale_nav {
+            top: 100px;
+
+            i {
+                font-size: 35px;
             }
         }
     }
