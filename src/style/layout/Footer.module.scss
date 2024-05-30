@@ -54,9 +54,16 @@
 
         .content_p {
             //display: none;
+            margin: 0;
 
             h3 {
-                margin: 0px 0px $PaddingBox 10px;
+                margin: 0px 0px $PaddingBox 0px;
+            }
+        }
+
+        .content_i {
+            i {
+                margin: 0px $PaddingBox 0px $PaddingBox;
             }
         }
     }

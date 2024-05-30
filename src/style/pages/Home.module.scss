@@ -42,8 +42,10 @@
             box-sizing: border-box;
 
             .apropos {
-                font-family: "Edu TAS Beginner", cursive;
-                font-size: 30px;
+                font-family: "Caveat", cursive;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 35px;
                 padding: 5% 5% 0% 5%;
                 text-align: justify;
                 margin: 0;
@@ -53,6 +55,7 @@
                 font-size: 25px;
                 padding: 5%;
                 margin: $PaddingBox*4 0px $PaddingBox*4 0px;
+                text-align: center;
             }
         }
 
@@ -115,12 +118,17 @@
     }
 }
 
+@media (max-width: 870px) {
+    h3 {
+        text-align: center;
+    }
+}
+
 @media (max-width: 620px) {
     h3 {
         margin-top: $PaddingBox;
         margin-bottom: $PaddingBox;
         font-size: 22px;
-        text-align: center;
     }
 
     .home {
