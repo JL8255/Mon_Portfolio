@@ -44,15 +44,15 @@
             .apropos {
                 font-family: "Edu TAS Beginner", cursive;
                 font-size: 30px;
-                padding: 5%;
+                padding: 5% 5% 0% 5%;
                 text-align: justify;
+                margin: 0;
             }
 
             .citation {
                 font-size: 25px;
                 padding: 5%;
-                margin: 0;
-                text-align: center;
+                margin: $PaddingBox*4 0px $PaddingBox*4 0px;
             }
         }
 
