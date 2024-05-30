@@ -5,7 +5,7 @@ function Navigator() {
     return (
         <div className={styles.navigator}>
             <ul>
-                <a className={styles.Link} href="#apropos">
+                <a className={styles.Link} href="#top">
                     <i className="fa-solid fa-code"></i>
                     A propos de moi</a>
                 <a className={styles.Link} href="#realisations">
