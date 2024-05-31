@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Mon_Portfolio/static/css/main.98161caa.css",
+    "main.css": "/Mon_Portfolio/static/css/main.5f692af2.css",
     "main.js": "/Mon_Portfolio/static/js/main.255da7d6.js",
     "static/media/CV.pdf": "/Mon_Portfolio/static/media/CV.16ab957c3a079e128e25.pdf",
     "static/media/CV.jpg": "/Mon_Portfolio/static/media/CV.dd1dfcccee9dda029fb8.jpg",
@@ -11,11 +11,11 @@
     "static/media/Planifier_le_développement_du_site_d'un_client.jpg": "/Mon_Portfolio/static/media/Planifier_le_développement_du_site_d'un_client.5ec940adcf73be2ca5b8.jpg",
     "static/media/Créer_une_page_web_dynamique_en_JavaScript.jpg": "/Mon_Portfolio/static/media/Créer_une_page_web_dynamique_en_JavaScript.b5ede704ce0150fa7db3.jpg",
     "index.html": "/Mon_Portfolio/index.html",
-    "main.98161caa.css.map": "/Mon_Portfolio/static/css/main.98161caa.css.map",
+    "main.5f692af2.css.map": "/Mon_Portfolio/static/css/main.5f692af2.css.map",
     "main.255da7d6.js.map": "/Mon_Portfolio/static/js/main.255da7d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.98161caa.css",
+    "static/css/main.5f692af2.css",
     "static/js/main.255da7d6.js"
   ]
 }
