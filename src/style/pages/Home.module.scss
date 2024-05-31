@@ -13,12 +13,12 @@
     justify-content: center;
     align-items: start;
     background-color: $MainBC;
+    box-sizing: border-box;
 
     .content_nav {
         width: $NavigatorWidth;
         height: $PageHeight;
         padding: $PaddingBox;
-        box-sizing: border-box;
         border-right: 0px solid $BodyBC;
         display: flex;
         flex-direction: column;
@@ -26,6 +26,7 @@
         align-items: start;
         position: sticky;
         top: $HeaderHeight;
+        box-sizing: border-box;
     }
 
     .content_page {
@@ -85,9 +86,9 @@
             @include borderDEG();
             width: 100%;
             padding: $PaddingBox;
-            box-sizing: border-box;
             display: flex;
             flex-direction: column;
+            box-sizing: border-box;
 
             .CVpage {
 

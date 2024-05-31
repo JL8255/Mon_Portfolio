@@ -1,4 +1,4 @@
-$HtmlBC: white; //rgb(32, 39, 51);
+$HtmlBC: rgb(23, 27, 36, 0.97);
 $BodyBC: rgb(23, 27, 36, 0.97);
 $MainBC: rgb(25, 30, 39);
 
@@ -9,7 +9,9 @@ $H3FontColor: rgb(205, 216, 233);
 $TagColor: rgb(22, 223, 189);
 $TagBC: rgba(34, 179, 179, 0.2);
 
-$BodyWidth: 100vw;
+$ScrollbarWidth: 5px;
+$Htmlwidth: calc(100vw - $ScrollbarWidth);
+$BodyWidth: $Htmlwidth;
 $MainWidth: min(100%, 1440px);
 $HeaderHeight: 150px;
 $FooterHeight: 120px;

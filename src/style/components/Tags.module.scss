@@ -1,7 +1,7 @@
 @import "../utils/variables.module.scss";
 
 .tag {
-    min-width: 160px;
+    min-width: 180px;
     border: 0px solid $TagColor;
     color: $TagColor;
     background-color: $TagBC;
@@ -11,4 +11,5 @@
     justify-content: center;
     align-items: center;
     margin: 10px 15px 0px 0px;
+    box-sizing: border-box;
 }

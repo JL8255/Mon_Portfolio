@@ -4,18 +4,19 @@
     width: 100%;
     background-color: $BodyBC;
     padding: $PaddingBox;
-    box-sizing: border-box;
     border-radius: $DefaultBorderRadius;
     margin-bottom: $PaddingBox;
     display: flex;
     flex-direction: row;
     align-items: center;
+    box-sizing: border-box;
 
     .poster {
         width: 300px;
         margin-right: $PaddingBox*2;
         text-decoration: none;
         text-align: center;
+        box-sizing: border-box;
 
         h4 {
             color: $TagColor;
@@ -35,6 +36,7 @@
     }
 
     .content_des {
+        box-sizing: border-box;
 
         p {
             margin-bottom: $PaddingBox;

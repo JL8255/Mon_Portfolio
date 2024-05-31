@@ -1,38 +1,50 @@
 @import "../utils/variables.module.scss";
 
-html {
-    margin: 0;
-    background-color: $HtmlBC;
+@mixin flexColumn() {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    width: $Htmlwidth;
+    background-color: $HtmlBC;
+    @include flexColumn();
 }
 
 body {
     width: $BodyWidth;
-    margin: 0;
-    box-sizing: border-box;
     background-color: $BodyBC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    @include flexColumn();
+    /*PB avec chrome : scrollbar pas comprise dans 100vw et scrollbar-x apparait ! --> solution ::-webkit-scrollbar / ou ci-dessous*/
+    //overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    height: $ScrollbarWidth;
+    width: $ScrollbarWidth;
+    background: $TagBC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $TagColor;
+    -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+    background: $TagBC;
 }
 
 .content_main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    @include flexColumn();
 }
 
 .main {
     width: $MainWidth;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
+    @include flexColumn();
 }
 
 * {
