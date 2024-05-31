@@ -67,3 +67,14 @@
         }
     }
 }
+
+@media (max-width: 355px) {
+    .footer {
+
+        .content_i {
+            i {
+                margin: 0px $PaddingBox*0.5 0px $PaddingBox*0.5;
+            }
+        }
+    }
+}

@@ -1,7 +1,7 @@
 @import "../utils/variables.module.scss";
 
 .content_skillGroup {
-    width: 300px;
+    width: min(300px, 100%);
     margin: $PaddingBox;
     box-sizing: border-box;
     display: flex;

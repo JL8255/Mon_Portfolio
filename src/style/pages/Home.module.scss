@@ -102,13 +102,14 @@
                     color: $TagColor;
                     font-size: 20px;
                 }
+
+                img {
+                    margin: $PaddingBox 0px $PaddingBox 0px;
+                    width: min(590px, 100%);
+                }
             }
 
-            img {
 
-                margin: $PaddingBox 0px $PaddingBox 0px;
-                max-width: 590px;
-            }
         }
     }
 }

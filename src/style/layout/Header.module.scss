@@ -79,7 +79,7 @@
         }
 
         .name {
-            width: 200px;
+            width: min(200px, 100%);
 
             h1 {
                 font-size: 20px;
@@ -100,6 +100,21 @@
             i {
                 font-size: 35px;
             }
+        }
+    }
+}
+
+@media (max-width: 355px) {
+    .header {
+        padding: $PaddingBox 5px $PaddingBox 5px;
+
+        .avatar {
+            margin: 0px 10px 0px 10px;
+        }
+
+        .name {
+            position: absolute;
+            left: 100px;
         }
     }
 }
