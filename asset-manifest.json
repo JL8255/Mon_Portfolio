@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Mon_Portfolio/static/css/main.f2064d4d.css",
-    "main.js": "/Mon_Portfolio/static/js/main.74c62608.js",
-    "static/media/Débuggage_et_optimisation_d'un_site_de_photographe.jpg": "/Mon_Portfolio/static/media/Débuggage_et_optimisation_d'un_site_de_photographe.e8df859246945b00a6b7.jpg",
-    "static/media/Planifier_le_développement_du_site_d'un_client.jpg": "/Mon_Portfolio/static/media/Planifier_le_développement_du_site_d'un_client.ea967a12ffda0629965d.jpg",
-    "static/media/Développer_le_back-end_d'un_site_de_notation.jpg": "/Mon_Portfolio/static/media/Développer_le_back-end_d'un_site_de_notation.b974c033f34e27d30989.jpg",
-    "static/media/Créer_une_page_web_dynamique_en_JavaScript.jpg": "/Mon_Portfolio/static/media/Créer_une_page_web_dynamique_en_JavaScript.80e5ad67d6842c053890.jpg",
-    "static/media/Création_d'une_application_web_de_location_immobilière.jpg": "/Mon_Portfolio/static/media/Création_d'une_application_web_de_location_immobilière.0d0bec42d626ad16d13d.jpg",
+    "main.css": "/Mon_Portfolio/static/css/main.98161caa.css",
+    "main.js": "/Mon_Portfolio/static/js/main.255da7d6.js",
+    "static/media/CV.pdf": "/Mon_Portfolio/static/media/CV.16ab957c3a079e128e25.pdf",
     "static/media/CV.jpg": "/Mon_Portfolio/static/media/CV.dd1dfcccee9dda029fb8.jpg",
+    "static/media/Création_d'une_application_web_de_location_immobilière.jpg": "/Mon_Portfolio/static/media/Création_d'une_application_web_de_location_immobilière.891620158d7af9d8d49d.jpg",
     "static/media/Avatar.png": "/Mon_Portfolio/static/media/Avatar.9980d676a246f7511558.png",
+    "static/media/Développer_le_back-end_d'un_site_de_notation.jpg": "/Mon_Portfolio/static/media/Développer_le_back-end_d'un_site_de_notation.98665f9cb0967a7252b6.jpg",
+    "static/media/Débuggage_et_optimisation_d'un_site_de_photographe.jpg": "/Mon_Portfolio/static/media/Débuggage_et_optimisation_d'un_site_de_photographe.6e598cb5d28920282fe6.jpg",
+    "static/media/Planifier_le_développement_du_site_d'un_client.jpg": "/Mon_Portfolio/static/media/Planifier_le_développement_du_site_d'un_client.5ec940adcf73be2ca5b8.jpg",
+    "static/media/Créer_une_page_web_dynamique_en_JavaScript.jpg": "/Mon_Portfolio/static/media/Créer_une_page_web_dynamique_en_JavaScript.b5ede704ce0150fa7db3.jpg",
     "index.html": "/Mon_Portfolio/index.html",
-    "main.f2064d4d.css.map": "/Mon_Portfolio/static/css/main.f2064d4d.css.map",
-    "main.74c62608.js.map": "/Mon_Portfolio/static/js/main.74c62608.js.map"
+    "main.98161caa.css.map": "/Mon_Portfolio/static/css/main.98161caa.css.map",
+    "main.255da7d6.js.map": "/Mon_Portfolio/static/js/main.255da7d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2064d4d.css",
-    "static/js/main.74c62608.js"
+    "static/css/main.98161caa.css",
+    "static/js/main.255da7d6.js"
   ]
 }
