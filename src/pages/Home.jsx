@@ -5,6 +5,7 @@ import SkillGroup from "../components/SkillGroup"
 import realisationsList from "../datas/Realisations.json"
 import competenceList from "../datas/Competence.json"
 import imgCV from "../assets/CV.jpg"
+import CV from "../assets/CV.pdf"
 import IMG1 from "../assets/Créer_une_page_web_dynamique_en_JavaScript.jpg"
 import IMG2 from "../assets/Planifier_le_développement_du_site_d'un_client.jpg"
 import IMG3 from "../assets/Débuggage_et_optimisation_d'un_site_de_photographe.jpg"
@@ -61,6 +62,7 @@ function Home() {
                 <div id="CV" className={styles.content_CV}>
                     <h3>Mon CV à télécharger</h3>
                     <div className={styles.CVpage}>
+                        <a href={CV} download="CV_Jean-Louis_Holzer.png"><i class="fa-solid fa-download"></i>Download ...</a>
                         <img src={imgCV} alt="CV" />
                     </div>
                 </div>
