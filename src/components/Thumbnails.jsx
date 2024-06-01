@@ -1,6 +1,7 @@
 import styles from "../style/main.module.scss"
 import Tag from "./Tags"
 
+
 function Thumbnails({ realisation, IMG }) {
     return (
         <div className={styles.thumbnails}>

@@ -1,3 +1,10 @@
+# Launch the project from this uploaded repository
+
+Install npm with command `npm install` in root folder
+launch application with command `npm start` from root folder
+
+# -----------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
