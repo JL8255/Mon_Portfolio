@@ -2,7 +2,7 @@
     {
         "id": "1",
         "name": "Créer une page web dynamique en JavaScript",
-        "description": "Développement de la partie Front-end d'un site d'architecte. Gestion d'événementd avec manipulation du DOM. Création d'une page de connexion avec vérification de l'authentification. Gestion de modale.",
+        "description": "Développement de la partie Front-end d'un site d'architecte. Gestion des événements avec manipulation du DOM en JS. Création d'une page de connexion avec vérification de l'authentification. Création de modales.",
         "picture": "../assets/Créer_une_page_web_dynamique_en_JavaScript.jpg",
         "tag": [
             "HTML 5",
@@ -16,7 +16,7 @@
     {
         "id": "2",
         "name": "Planifier le développement du site d'un client",
-        "description": "Configuration d'un outil de gestion de projet et d'un outil de veille technologique. Rédaction des spécifications et des solutions techniques. Elaboration du planning de réalisation du projet découpé en tickets. Equipe de développement organisée autour de la methode agile.",
+        "description": "Configuration d'un outil de gestion de projets et d'un outil de veille technologique. Rédaction des spécifications et des solutions techniques. Elaboration du planning de réalisation du projet. Découpage en tickets. Equipe de développement organisée en methode agile.",
         "picture": "../assets/Planifier_le_développement_du_site_d'un_client.jpg",
         "tag": [
             "Méthode Agile",

@@ -22,8 +22,8 @@ function Home() {
 
                 <div id="apropos" className={styles.content_apropos}>
                     <p className={styles.apropos}>L'univers du développement me captive depuis longtemps. Quand j'étais étudiant, je cherchais comment réaliser des petits programmes pratiques pour gagner du temps et partager mes réalisations avec les autres.</p>
-                    <p className={styles.apropos}>Cependant, j'ai orienté mes études et mon travail dans le domaine de la finance depuis 2002. J'ai toujours essayer d'aller au-delà de ma zone de confort, d'en apprendre plus et d'utiliser l'outil informatique comme un allié pour gagner en efficacité. C'est ainsi que j'ai appris en autodidacte à utiliser le langage VBA d'Excel pour générer des feuilles de calcul complexes.</p>
-                    <p className={styles.apropos}>Malgré une situation confortable, j'ai décidé de tout quitter après 15 années comme responsable de mission pour me consacrer entièrement au développement web depuis fin 2023.</p>
+                    <p className={styles.apropos}>Cependant, j'ai orienté mes études et mon travail dans le domaine de la finance pour obtenir un DECF en 2006. J'ai toujours essayer d'aller au-delà de ma zone de confort, d'en apprendre plus et d'utiliser l'outil informatique comme un allié pour gagner en efficacité. C'est ainsi que j'ai appris en autodidacte à utiliser le langage VBA d'Excel pour générer des feuilles de calcul complexes.</p>
+                    <p className={styles.apropos}>Malgré une situation confortable, j'ai décidé de tout quitter après 15 années comme responsable de mission chez un bailleur immobilier pour me consacrer entièrement au développement web depuis fin 2023. Grâce aux cours et aux mises en situations professionnelles dispensés par Openclassrooms, j'ai pu décrocher le diplôme de niveau 5 de Développeur Web Full Stack</p>
                     <p className={styles.apropos}>Je suis fasciné par ce nouveau monde de possibilités et j'apprécie toujours en apprendre d'avantage !</p>
                     <p className={styles.citation}>"Toute technologie suffisamment avancée est indiscernable de la magie." - Arthur C. Clarke</p>
                 </div>
@@ -62,7 +62,7 @@ function Home() {
                 <div id="CV" className={styles.content_CV}>
                     <h3>Mon CV à télécharger</h3>
                     <div className={styles.CVpage}>
-                        <a href={CV} download="CV_Jean-Louis_Holzer.png"><i class="fa-solid fa-download"></i>Download ...</a>
+                        <a href={CV} download="CV_Jean-Louis_Holzer"><i class="fa-solid fa-download"></i>Download ...</a>
                         <img src={imgCV} alt="CV" />
                     </div>
                 </div>
