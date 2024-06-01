@@ -74,6 +74,10 @@
             padding: $PaddingBox;
             box-sizing: border-box;
 
+            .animation {
+                width: 80px;
+            }
+
             .content_skillGroup {
                 display: flex;
                 flex-direction: row;

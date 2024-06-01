@@ -2,6 +2,7 @@ import styles from "../style/main.module.scss"
 import Avatar from "../assets/Avatar.png"
 import Navigator from "./Navigator"
 import { useState } from 'react';
+import AnimationCircle from "./AnimationCircle";
 
 function Header() {
 
@@ -10,7 +11,7 @@ function Header() {
     return (
         <div className={styles.header}>
             <div onClick={() => setShowNav(!showNav)} className={styles.modale_nav}>
-                <i className="fa-solid fa-bars"></i>
+                <AnimationCircle />
                 <div className={showNav ? styles.navOn : styles.navOff}>
                     <Navigator />
                 </div>
@@ -25,3 +26,7 @@ function Header() {
 }
 
 export default Header
+
+/*
+<i className="fa-solid fa-bars"></i>
+*/

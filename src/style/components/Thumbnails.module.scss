@@ -31,6 +31,8 @@
                 width: 100%;
                 //height: 100%;
                 //object-fit: cover;
+                animation-duration: 2s;
+                animation-name: fondu;
             }
         }
     }
@@ -82,12 +84,20 @@
 
 @media (max-width: 520px) {
     .thumbnails {
-        .poster {}
-
         .content_des {
             .content_tag {
                 justify-content: center;
             }
         }
+    }
+}
+
+@keyframes fondu {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }

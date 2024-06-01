@@ -1,0 +1,75 @@
+@import "../utils/variables.module.scss";
+
+// Description: https://developer.mozilla.org/en-US/docs/Web/CSS/@property
+// Can I use: https://caniuse.com/mdn-css_at-rules_property
+
+@property --progress {
+    syntax: "<percentage>";
+    inherits: true;
+    initial-value: 0%;
+}
+
+@keyframes progress {
+    from {
+        --progress: 0%;
+    }
+
+    to {
+        --progress: 100%;
+    }
+}
+
+.circle {
+    --progress: 60%;
+
+    // check if the browser supports the @property (Houdini API) animation, then start with 0
+    @supports (background: paint(houdini)) {
+        --progress: 0%;
+    }
+
+    background: conic-gradient(at center,
+        $TagColor var(--progress),
+        $MainBC var(--progress),
+        $TagBC calc(var(--progress) + 20%),
+        $HtmlBC calc(var(--progress) + 30%),
+        white calc(var(--progress) + 50%),
+        transparent,
+        transparent,
+        transparent,
+        transparent);
+    animation: progress 60s linear infinite;
+    border-radius: 50%;
+    mask: radial-gradient(circle at center, transparent 65%, black 65%);
+    position: absolute;
+    inset: 0;
+
+    /*
+    &:nth-child(2) {
+        inset: 1.5vmin;
+        animation-delay: 1s;
+    }
+
+    &:nth-child(3) {
+        inset: 3vmin;
+        animation-delay: 0.5s;
+    }
+    */
+}
+
+.container {
+    filter: $DropShadow;
+    position: relative;
+    width: 10vmin;
+    aspect-ratio: 1;
+
+    &:after {
+        content: "Menu"; //Text à insérer au centre
+        font-weight: bold;
+        position: absolute;
+        font-size: 2.5vmin;
+        inset: 0;
+        color: $TagColor;
+        display: grid;
+        place-items: center;
+    }
+}

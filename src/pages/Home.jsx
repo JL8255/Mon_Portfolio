@@ -62,7 +62,7 @@ function Home() {
                 <div id="CV" className={styles.content_CV}>
                     <h3>Mon CV à télécharger</h3>
                     <div className={styles.CVpage}>
-                        <a href={CV} download="CV_Jean-Louis_Holzer"><i class="fa-solid fa-download"></i>Download ...</a>
+                        <a href={CV} download="CV_Jean-Louis_Holzer"><i className="fa-solid fa-download"></i>Download ...</a>
                         <img src={imgCV} alt="CV" />
                     </div>
                 </div>
